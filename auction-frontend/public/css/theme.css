@@ -1,0 +1,70 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #4285f4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  background-color: #4285f4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 0%;
+}
+
+.signup-page {
+  margin-top: 20px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-form div {
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input,
+.signup-form select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
