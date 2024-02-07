@@ -10,15 +10,7 @@ public class User {
     private String username;
     private String password;
     private String email;
-    private String role; // Buyer, Seller, Admin
-
-    public User(String id, String username, String password, String email, String role) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.email = email;
-        this.role = role;
-    }
+    private String role;
 
     public String getId() {
         return id;
@@ -59,4 +51,17 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+
+    public User() {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.role = role;
+    }
+
+    public String getUserId() {
+        return null;
+    }
+
 }
