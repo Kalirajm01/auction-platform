@@ -52,10 +52,13 @@ const SignInPage = () => {
       console.log(response.data);
       setError('');
       if(response.data === "Buyer"){
-      navigate('/homepage');
+      navigate('/buyer');
       }
       else if(response.data === "Seller"){
-        navigate('/sellerhome');
+        navigate('/seller');
+      }
+      else if(response.data === "Admin"){
+        navigate('/admin');
       }
     })
     .catch(error => {

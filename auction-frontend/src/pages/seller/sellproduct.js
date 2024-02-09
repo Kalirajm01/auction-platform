@@ -42,7 +42,7 @@ function SellerForm() {
     .then(data => {
       console.log('Auction created successfully:', data);
       // Optionally, perform any additional actions after creating the auction
-      navigate('/sellerhome'); // Redirect to success page or any other action
+      navigate('/seller'); // Redirect to success page or any other action
     })
     .catch(error => {
       console.error('Error creating auction:', error);
