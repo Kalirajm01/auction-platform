@@ -137,14 +137,11 @@ const ProductDetailsPage = () => {
         </div>
         <div style={styles.userContainer}>
           <nav style={styles.nav}>
-            <a href="/homepage" style={styles.navLink}>
+            <a href="/buyer" style={styles.navLink}>
               Home
             </a>
             <a href="contact" style={styles.navLink}>
               Contact Us
-            </a>
-            <a href="/sellerhome" style={styles.navLink}>
-              Sell
             </a>
           </nav>
           <div style={styles.userIconContainer} onClick={toggleDropdown} ref={dropdownRef}>

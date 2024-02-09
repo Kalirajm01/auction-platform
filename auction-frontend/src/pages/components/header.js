@@ -43,13 +43,13 @@ const Header = ({ username }) => { // Accept username as a prop
       </div>
       <div style={styles.userContainer}>
         <nav style={styles.nav}>
-          <a href="/homepage" style={styles.navLink}>
+          <a href="/buyer" style={styles.navLink}>
             Home
           </a>
           <a href="/contact" style={styles.navLink}>
             Contact Us
           </a>
-          <a href="/sellerhome" style={styles.navLink}>
+          <a href="/seller" style={styles.navLink}>
             Sell
           </a>
         </nav>

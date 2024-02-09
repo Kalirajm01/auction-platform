@@ -49,7 +49,7 @@ const ContactUs = () => {
         </div>
         <div style={styles.userContainer}>
           <nav style={styles.nav}>
-            <a href="/homepage" style={styles.navLink}>
+            <a href="/buyer" style={styles.navLink}>
               Home
             </a>
           </nav>

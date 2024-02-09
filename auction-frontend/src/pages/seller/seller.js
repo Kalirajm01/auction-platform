@@ -49,7 +49,7 @@ const SellerHomePage = () => {
         </div>
         <div style={styles.userContainer}>
           <nav style={styles.nav}>
-            <a href="/sellerhome" style={styles.navLink}>
+            <a href="/seller" style={styles.navLink}>
               Home
             </a>
             <a href="/contacts" style={styles.navLink}>
